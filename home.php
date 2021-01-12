@@ -37,7 +37,8 @@
                 Login
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="loginht.php">Login Employee</a>
+                <a class="dropdown-item" href="loginht.php">Login Customer</a>
+                <a class="dropdown-item" href="employee_login.php">Login Employee</a>
               </div>
             </li>
             <li class="nav-item">
