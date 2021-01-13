@@ -48,6 +48,10 @@ body{
             <th>StartDate</th>
             <th>LasttDate</th>
             <th>TotalPrice</th>
+            <th>CarNumber</th>
+            <th>CarModel</th>
+            <th>BuyORRent</th>
+            <th>CarColor</th>
             </tr>
         </tr>
         <?php
@@ -60,7 +64,7 @@ body{
         $result=$conn->query($sql);
         if($result !==false && $result-> num_rows > 0){
             while($row = $result->fetch_assoc()){
-                echo "<tr><td>" . $row["ContractNumber"] . "</td><td>" . $row["StartDate"] ."</td><td>" . $row["LasttDate"] ."</td><td>". $row["TotalPrice"] ."</td></tr>";
+                 echo "<tr><td>" . $row["ContractNumber"] . "</td><td>" . $row["StartDate"] ."</td><td>" . $row["LasttDate"] ."</td><td>". $row["TotalPrice"] . "</td><td>" . $row["CarNumber"] . "</td><td>" . $row["CarModel"] . "</td><td>" . $row["BuyORRent"] . "</td><td>" . $row["CarColor"]."</td></tr>";
             }
             echo "</table>";
         }
