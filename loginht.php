@@ -93,8 +93,7 @@ include("login.php");
 							<i class="fa fa-lock" aria-hidden="true"></i>
 						</span>
 					</div>
-					<input type="submit" id="adminLogin" value="Login as admin user">
-					<input type="submit" id="userLogin" value="Logins as Student">
+					
 					
 					<div class="container-login100-form-btn" id="adminLogin" value="Login as admin user">
 						<button class="login100-form-btn" >
