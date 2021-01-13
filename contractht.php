@@ -91,18 +91,6 @@ include("contact.php");
               <small  class="form-text text-muted">contract number is unique.</small>
             </div>
             <div class="form-group">
-              <label for="StartDate">Start-Date</label>
-              <input type="datetime" class="form-control" id="StartDate"  name="StartDate" placeholder="XXXX-XX-XX">
-            </div>
-            <div class="form-group">
-                <label for="LasttDate">End-Date</label>
-                <input type="datetime" class="form-control" id="LasttDate"  name="LasttDate" placeholder="XXXX-XX-XX">
-              </div>
-              <div class="form-group">
-                <label for="TotalPrice">TotalPrice</label>
-                <input type="number" class="form-control" id="TotalPrice" placeholder="TotalPrice" name="TotalPrice">
-              </div>
-              <div class="form-group">
                 <label for="CarNumber">CarNumber</label>
                 <input type="text" class="form-control" id="CarNumber" placeholder="XX-0000" name="CarNumber">
               </div>
@@ -143,6 +131,19 @@ include("contact.php");
                <option label='red' value='red'>
   </datalist>
               </div>
+            <div class="form-group">
+              <label for="StartDate">Start-Date</label>
+              <input type="datetime" class="form-control" id="StartDate"  name="StartDate" placeholder="XXXX-XX-XX">
+            </div>
+            <div class="form-group">
+                <label for="LasttDate">End-Date</label>
+                <input type="datetime" class="form-control" id="LasttDate"  name="LasttDate" placeholder="XXXX-XX-XX">
+              </div>
+              <div class="form-group">
+                <label for="TotalPrice">TotalPrice</label>
+                <input type="number" class="form-control" id="TotalPrice" placeholder="TotalPrice" name="TotalPrice">
+              </div>
+              
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">All Information is valid</label>
