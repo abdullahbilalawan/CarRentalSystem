@@ -102,6 +102,47 @@ include("contact.php");
                 <label for="TotalPrice">TotalPrice</label>
                 <input type="number" class="form-control" id="TotalPrice" placeholder="TotalPrice" name="TotalPrice">
               </div>
+              <div class="form-group">
+                <label for="CarNumber">CarNumber</label>
+                <input type="text" class="form-control" id="CarNumber" placeholder="XX-0000" name="CarNumber">
+              </div>
+              <div class="form-group">
+                <label for="CarModel">CarModel</label>
+              
+                <input type="text" class="form-control" id="CarModel" placeholder="CarModel" name="CarModel" list="listid1">
+                <datalist id="listid1">
+                <option label='Ford' value='Ford'>
+                <option label='Honda' value='Honda'>
+                <option label='Mercedes' value='Mercedes'>
+                <option label='Nissan' value='Nissan'>
+                <option label='Toyota' value='Toyota'>
+                <option label='Tesla' value='Tesla'>
+
+                </datalist>
+              </div>
+              <div class="form-group">
+                <label for="BuyORRent">BuyORRent</label>
+                <input type="text" class="form-control" id="BuyORRent" placeholder="BuyORRent" name="BuyORRent" list="listid2">
+
+                <datalist id="listid2">
+                <option label='Buy' value='Buy'>
+                <option label='Rent' value='Rent'>
+                </datalist>
+              </div>
+              <div class="form-group">
+                <label for="CarColor">CarColor</label>
+                <input type="text" class="form-control" id="CarColor"   name="CarColor" list="listid3">
+                <datalist id='listid3'>
+                <option label='black' value='black'>
+                <option label='white' value='white'>
+                <option label='gray' value='gray'>
+                <option label='silver' value='silver'>
+                <option label='red' value='red'>
+                <option label='blue' value='blue'>
+                <option label='gold' value='gold'>
+               <option label='red' value='red'>
+  </datalist>
+              </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">All Information is valid</label>
